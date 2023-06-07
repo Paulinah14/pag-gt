@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Centro de Ensino - Grau técnico</title>
+	<!-- link chama pag do css-->
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+
+	<div class="registroformulario"><h1> Agência de Encaminhamento </h1></div>
+
+	<div class="conteudo">
+
+		<form>
+			<!-- digitar  nome-->
+			<div id="nome">
+				 
+				<h2 class="nome">Nome </h2>
+				<input class="primeironome" type="text" name="primeiro_nome"><br>
+				<label class="primeirolabel">Nome</label> <!-- nome em baixo-->
+				<input class="sobrenome" type="text" name="sobre_nome">
+				<label class="sobrenomelabel">Sobrenome</label>
+				
+			</div>
+					
+			</select>
+
+			<!-- digitar e-mail-->
+			<h2 class="nome">Email</h2>
+			<input class="email" type="text" name="email">
+
+
+			<!-- digitar telefone -->
+			<h2 class="nome">Telefone com DDD</h2>
+			<input class="codigo" type="text" name="codigo_area">
+			<label class="codigo_area">DDD</label> 
+			<input class="number" type="text" name="phone">
+			<label class="numero-telefone">Telefone</label>
+
+
+			<!-- seleção da unidade -->
+			<h2 class="nome">Unidade</h2>
+			<select class="opcoes" name="assunto">
+				<option disabled="disabled" selected="selected">--Selecione a unidade--</option>
+				<option>GTC - BH</option>
+				<option>Polo - BH</option>
+				
+				
+			</select>
+
+			<!-- seleção do curso -->
+			<h2 class="nome">Curso</h2>
+			<select class="opcoes" name="assunto">
+				<option disabled="disabled" selected="selected">--Selecione seu curso--</option>
+				<option>Informatica</option>
+				<option>Radiologia</option>
+				<option>Administração</option>
+				<option>Segurança do Trabalho</option>
+				
+			</select>
+
+
+			<!-- seleção do turno -->
+			<h2 class="nome">Turno</h2>
+			<select class="opcoes" name="assunto">
+				<option disabled="disabled" selected="selected">--Selecione o turno do seu curso--</option>
+				<option> Seg/Qua/Sex - Manhã</option>
+				<option> Seg/Qua/Sex - Tarde</option>
+				<option> Seg/Qua/Sex - Noite</option>
+				<option> Ter/Qui/Sab - Manhã</option>
+				<option> Ter/Qui/Sab - Tarde</option>
+				<option> Ter/Qui/Sab - Noite</option>
+				
+				
+			</select>
+			<!-- botao envia formulario-->
+			<button onclick="alert('Cadastro efetuado com sucesso! Em breve entraremos em contato.');">Enviar</button>
+			
+			
+
+
+</body>
+</html>
